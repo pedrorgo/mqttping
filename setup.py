@@ -19,8 +19,8 @@ def get_long_description():
     try:
         with open('README.md', 'r') as f:
             return f.read()
-        except IOError:
-            return ''
+    except IOError:
+        return ''
 
 setup(
     name=package_name,
