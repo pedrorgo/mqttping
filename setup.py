@@ -3,10 +3,8 @@
 
 from setuptools import setup
 
-
 package_name = 'mqttping'
 filename = package_name + '.py'
-
 
 def get_version():
     import ast
